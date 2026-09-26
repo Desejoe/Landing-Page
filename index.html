@@ -5,33 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing page</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Site navigation -->
   <header>
-    <div>
+    <div class="container">
       <nav>
         <span> Header logo </span>
         <ul>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
         </ul>
-        <li><a href="#">header link one</a></li>
-        <li><a href="#">header link two</a></li>
-        <li><a href="#">header link three</a></li>
-      </nav>
+        </nav>
     </div>
   </header>
   <!-- Page content -->
   <main>
     <!-- Hero section -->
     <section>
-    <div>
+    <div class="container hero-container">
       <div>
         <h1> The website is awesome</h1>
         <p> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast. </p>
         <button> Sign up </button>
       </div>  
       <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQogZKb-T6BI-dJRKvEXik0uD8bapenlK3xYUqQU6wA&s=10" alt="placeholder image" >
+        <img class="imgHead" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQogZKb-T6BI-dJRKvEXik0uD8bapenlK3xYUqQU6wA&s=10" alt="placeholder image" width="600">
       </div>
     </div>
     </section>
@@ -39,7 +40,7 @@
     
     <!-- Information section -->
     <section>
-      <div>
+      <div class="container">
         <div>
           <figure>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKC68ilmFZ9_Z0i9Dj2-9dsgr1IU68PWyDjb-6U-YUQ&s" alt="Placeholder image" >
@@ -72,7 +73,7 @@
 
     <!-- Quote section -->
     <section>
-      <div>
+      <div class="container quote-container">
         <blockquote>
           Life isn’t about finding yourself. Life is about creating yourself
         </blockquote>
@@ -83,7 +84,7 @@
 
     <!-- Call to the action -->
     <section>
-      <div>
+      <div class="container">
         <div>
           <div>
             <h3> Call to action it's time!</h3>
@@ -94,9 +95,11 @@
       </div>
     </section>
   </main>
-  
-  <footer>
 
+  <footer>
+    <div>
+      <p> Copyright &copy; Desejoe Kanian 67</p>
+    </div>
   </footer>
 </body>
 </html>
