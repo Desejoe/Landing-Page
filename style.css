@@ -28,3 +28,82 @@ img {
   margin: 0 auto;
   padding: 0 32px;
 }
+
+.btn {
+  background-color: #3882f6;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 8px 24px;
+  border-radius: 12px;
+  border: 2px solid #3882f6;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #3882f6;  
+  font-size: 22px;
+}
+.secondary-btn {
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 8px 24px;
+  border-radius: 12px;
+  border: 2px solid #3882f6;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+.secondary-btn:hover {
+  background-color: transparent;
+  color: #3882f6;  
+  font-size: 22px;
+}
+
+/* Header */
+
+header {
+  background-color: #1f2937;
+  padding-top: 18px;
+  color: #f9faf8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #bababa;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.nav-links a:hover {
+  color: #f9faf8;
+  text-decoration: underline;  
+}
