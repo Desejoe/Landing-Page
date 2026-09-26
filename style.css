@@ -45,7 +45,6 @@ img {
 .btn:hover {
   background-color: transparent;
   color: #3882f6;  
-  font-size: 22px;
 }
 .secondary-btn {
   border-color:  #ffffff;
@@ -186,7 +185,7 @@ header {
 .quote-section {
   padding: 40px 0;
   text-align: center;
-  background-color: #e2dfdf;
+  background-color: #c5cbd6;
 }
 
 .quote-container {
@@ -209,4 +208,41 @@ header {
   font-weight: 300;
   font-style: italic;
   text-align: right;
+}
+
+/* Call to action section */
+
+.cta-section {
+  padding: 60px 0;
+}
+
+.cta-wrapper {
+  background-color: #3882f6;
+  padding: 48px 96px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.cta-text h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.cta-text p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
+footer {
+  padding: 32px 0;
+  background-color: #1f2937;
+  color: #bababa;
+  text-align: center;
+  font-size: 16px;
 }
